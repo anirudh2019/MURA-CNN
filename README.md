@@ -1,5 +1,5 @@
 ## MURA dataset : Musculoskeletal Radiographs Abnormality Detection
-**Dataset Description:**
+**Dataset Description:** (Dataset can be downloaded from here: https://www.kaggle.com/cjinny/mura-v11
 - MURA is a large dataset of bone X-Rays containing 14,863 musculoskeletal studies of the upper extremity. 
 - Each study contains one or more views (images) and is labeled as either normal or abnormal.
 - Our dataset, MURA, contains 9,045 normal and 5,818 abnormal musculoskeletal radiographic studies of the upper extremity including the shoulder, humerus, elbow, forearm, wrist, hand, and finger.
