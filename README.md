@@ -11,46 +11,51 @@
 **Models implemented:** I have implemented two models: InceptionV2 model and Xception model using Tensorflow.
    
 **Important points for both models:**
-- Applied pixel standardisation to images before training.
-- Images are augmented using following hyperparameters:
-            <br>- rotation_range = 30
-            <br>- brightness_range = [0.8,1.2]
-            <br>- horizontal_flip = True
+- Before feeding the images to the network, each image is normalized to have same mean and standard deviation as 0 and 1 respectively, scaled to 224 x 224 and augmented using following hyperparameters:
+            <br>    - rotation_range = 30
+            <br>    - brightness_range = [0.8,1.2]
+            <br>    - horizontal_flip = True
 - Used Adam optimizer with learning_rate = 0.0001 and default values of betas.
 - Used binary_crossentropy loss function. 
 - Used dropout regularisation of rate = 0.3 for inceptionV2 model.
 - Used l2 regularisation of lambda = 1e-6 for Xception model
 - Number of epochs ran for :-  Xception model : 35    and   inceptionV2 model : 80
 
-**Results:** 
+**Results:**  Performance of both the models are compared with baseline model, DenseNet169 by P. Rajpurkar et al.(https://arxiv.org/pdf/1712.06957.pdf)
 <table>
     <th>  </th>
     <th>Xception</th>
     <th>InceptionV3</th>
+    <th>DenseNet169(baseline)</th>
     <tr>
          <td>prediction error</td>
          <td>0.195</td>
          <td>0.174</td>
+       <td>0.153</td>
     </tr>
     <tr>
          <td>Cohen kappa score</td>
          <td>0.604</td>
          <td>0.652</td>
+       <td>0.657</td>
     </tr>
     <tr>
          <td>f1_score</td>
          <td>0.80</td>
          <td>0.82</td>
+       <td>0.84</td>
     </tr>
     <tr>
          <td>validation_accuracy</td>
          <td>0.796</td>
          <td>0.826</td>
+       <td>0.838</td>
     </tr>
     <tr>
          <td>validation_loss</td>
          <td>0.493</td>
          <td>0.412</td>
+       <td>0.389</td>
     </tr>    
   
   
