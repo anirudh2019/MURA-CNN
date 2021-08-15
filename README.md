@@ -27,8 +27,7 @@
     <th>  </th>
     <th>DenseNet169(baseline)</th>
     <th>InceptionV3</th>
-    <th>Xception</th>   
-   
+    <th>Xception</th>
     <tr>
          <td>prediction error</td>
          <td>0.195</td>
@@ -58,6 +57,4 @@
          <td>0.493</td>
          <td>0.412</td>
        <td>0.389</td>
-    </tr>    
-  
-  
+    </tr>
