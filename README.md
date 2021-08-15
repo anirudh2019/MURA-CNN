@@ -25,9 +25,10 @@
 **Results:**  Performance of both the models are compared with baseline model, DenseNet169 by P. Rajpurkar et al.(https://arxiv.org/pdf/1712.06957.pdf)
 <table>
     <th>  </th>
-    <th>Xception</th>
-    <th>InceptionV3</th>
     <th>DenseNet169(baseline)</th>
+    <th>InceptionV3</th>
+    <th>Xception</th>   
+   
     <tr>
          <td>prediction error</td>
          <td>0.195</td>
