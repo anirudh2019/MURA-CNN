@@ -26,35 +26,29 @@
 <table>
     <th>  </th>
     <th>DenseNet169(baseline)</th>
-    <th>InceptionV3</th>
     <th>Xception</th>
     <tr>
          <td>prediction error</td>
-         <td>0.195</td>
          <td>0.174</td>
        <td>0.153</td>
     </tr>
     <tr>
          <td>Cohen kappa score</td>
-         <td>0.604</td>
          <td>0.652</td>
        <td>0.657</td>
     </tr>
     <tr>
          <td>f1_score</td>
-         <td>0.80</td>
          <td>0.82</td>
        <td>0.84</td>
     </tr>
     <tr>
          <td>validation_accuracy</td>
-         <td>0.796</td>
          <td>0.826</td>
        <td>0.838</td>
     </tr>
     <tr>
          <td>validation_loss</td>
-         <td>0.493</td>
          <td>0.412</td>
        <td>0.389</td>
     </tr>
