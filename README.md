@@ -10,7 +10,7 @@
 - MURA abnormality detection task is a binary classification task, where the input is an upper extremity radiograph and the expected output is a binary label y ∈ {0, 1} indicating whether the radiograph is normal or abnormal, respectively.
 
 **Models implemented:** I have implemented two models: InceptionV2 model and Xception model using Tensorflow.
-   
+
 **Important points for both models:**
 - Before feeding the images to the network, each image is normalized to have same mean and standard deviation as 0 and 1 respectively, scaled to 224 x 224 and augmented using following hyperparameters:
             <br>    - rotation_range = 30
@@ -30,25 +30,25 @@
     <tr>
          <td>prediction error</td>
          <td>0.174</td>
-       <td>0.153</td>
+       <td>0.195</td>
     </tr>
     <tr>
          <td>Cohen kappa score</td>
          <td>0.652</td>
-       <td>0.657</td>
+       <td>0.604</td>
     </tr>
     <tr>
          <td>f1_score</td>
          <td>0.82</td>
-       <td>0.84</td>
+       <td>0.80</td>
     </tr>
     <tr>
-         <td>validation_accuracy</td>
+         <td>Accuracy</td>
          <td>0.826</td>
-       <td>0.838</td>
+       <td>0.81</td>
     </tr>
-    <tr>
-         <td>validation_loss</td>
-         <td>0.412</td>
-       <td>0.389</td>
-    </tr>
+
+      
+      
+
+
