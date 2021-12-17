@@ -44,8 +44,8 @@
     </tr>
     <tr>
          <td>Accuracy</td>
-         <td>0.826</td>
-       <td>0.81</td>
+         <td>0.802</td>
+       <td>0.819</td>
     </tr>
 
       
