@@ -22,29 +22,24 @@
 - Used l2 regularisation of lambda = 1e-6 for Xception model
 - Number of epochs ran for :-  Xception model : 35    and   inceptionV2 model : 80
 
-**Results:**  Performance of both the models are compared with baseline model, DenseNet169 by P. Rajpurkar et al.(https://arxiv.org/pdf/1712.06957.pdf)
+**Results:**
 <table>
-    <th>  </th>
-    <th>DenseNet169(baseline)</th>
+    <th>Results</th>
     <th>Xception</th>
     <tr>
          <td>prediction error</td>
-         <td>0.174</td>
        <td>0.195</td>
     </tr>
     <tr>
          <td>Cohen kappa score</td>
-         <td>0.652</td>
        <td>0.604</td>
     </tr>
     <tr>
          <td>f1_score</td>
-         <td>0.82</td>
        <td>0.80</td>
     </tr>
     <tr>
          <td>Accuracy</td>
-         <td>0.802</td>
        <td>0.819</td>
     </tr>
 
